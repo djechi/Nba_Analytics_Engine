@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: sport-data
+  datasource:
+    url: jdbc:postgresql://localhost:5432/sport_data
+    username: djechipare
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
