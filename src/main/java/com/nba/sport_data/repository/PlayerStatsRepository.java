@@ -1,8 +1,7 @@
 package com.nba.sport_data.repository;
 
-import org.springframework.stereotype.Repository;
+import com.nba.sport_data.entity.PlayerStats;
+import org.springframework.data.jpa.repository.JpaRepository;
 
-@Repository
-public class PlayerStatsRepository {
-    
+public interface PlayerStatsRepository extends JpaRepository<PlayerStats, Long>{ 
 }
