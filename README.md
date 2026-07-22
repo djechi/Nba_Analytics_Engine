@@ -2,4 +2,4 @@
 Backend application for analyzing NBA player stats
 
 # ERD
-<img width="792" height="1064" alt="image" src="https://github.com/user-attachments/assets/cbfcf69b-ec52-4014-9b94-82ecb23a251c" />
+<img width="888" height="1118" alt="image" src="https://github.com/user-attachments/assets/8c286add-f1d9-4284-8946-9abad50032e1" />
