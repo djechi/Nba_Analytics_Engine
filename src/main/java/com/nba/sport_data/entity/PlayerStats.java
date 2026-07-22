@@ -2,16 +2,17 @@ package com.nba.sport_data.entity;
 
 import jakarta.persistence.*;
 
-
 @Entity
 @Table(name="player_stats")
 public class PlayerStats {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+
     @ManyToOne
     @JoinColumn(name = "player_id")
-    private Player player;
+    private Players player;
+    
     private Integer points;
     private Integer assists;
     private Integer offRebs;
