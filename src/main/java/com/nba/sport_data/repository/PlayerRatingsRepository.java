@@ -1,7 +1,7 @@
 package com.nba.sport_data.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import com.nba.sport_data.entity.Players;
+import com.nba.sport_data.entity.PlayerRatings;
 
-public interface PlayerRatingsRepository extends JpaRepository<Players, Long>{
+public interface PlayerRatingsRepository extends JpaRepository<PlayerRatings, Long>{
 }

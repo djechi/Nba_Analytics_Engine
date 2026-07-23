@@ -14,5 +14,8 @@ public class PlayerRatings {
     @JoinColumn(name = "player_id")
     private Players player;
 
+    private double offRating;
+    private double defRating;
+    private double ovrRating;
     private LocalDate date;
 }
